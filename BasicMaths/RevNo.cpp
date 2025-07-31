@@ -6,7 +6,7 @@ int main () {
     int lastDigit;
     while(n>0){
         lastDigit=n%10;
-        cout<<lastDigit<<"  ";
+        cout<<lastDigit<<" ";
         n=n/10;
     }
 }
