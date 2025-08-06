@@ -11,7 +11,11 @@ void print1(int n){
 }
 
 int main(){
-    int n;
-    cin>>n;
-    print1(n);
+    int t;
+    cin>>t;
+    for (int i = 0; i<t; i++){
+        int n;
+        cin>>n;
+        print1(n);
+    }
 }
